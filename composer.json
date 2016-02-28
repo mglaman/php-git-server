@@ -1,0 +1,21 @@
+{
+    "name": "mglaman/php-git-server",
+    "require": {
+        "slim/slim": "^3.0",
+        "symfony/yaml": "^3.0"
+    },
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "Matt Glaman",
+            "email": "nmd.matt@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpGitServer\\": "src/"
+        },
+        "files": ["PhpGitServer.php"]
+    }
+}

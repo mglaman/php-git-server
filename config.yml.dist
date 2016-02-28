@@ -1,0 +1,5 @@
+repository_directory: /home/git/repos
+repositories:
+  git/demo:
+    dir: git_demo
+    owner: git
